@@ -35,3 +35,25 @@ The model uses the following features:
 
 4. Make predictions by sending a POST request to the API endpoint:
    http://localhost:8000/predict
+
+
+   Example
+   Send a JSON payload with the features:
+   {
+  "IgG": 1.2,
+  "IgA": 0.8,
+  "IgM": 1.1,
+  "CD4": 500,
+  "Th_Tc_ratio": 1.5,
+  "CD19": 200,
+  "CSW": 0.7,
+  "CD16": 300
+   }
+
+   The API will return:
+   {
+  "prediction": 1
+   }
+
+   License
+This project is licensed under the Apache License 2.0
