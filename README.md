@@ -56,4 +56,4 @@ The model uses the following features:
    }
 
    License
-This project is licensed under the Apache License 2.0
+This project is licensed under the Creative Commons Zero v1.0 Universal
